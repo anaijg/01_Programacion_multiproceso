@@ -9,4 +9,5 @@ Para gestionar los procesos el planificador necesita conocer el estado en que se
 - **Finalizado**: tampoco es técnicamente un estado, sino que representa el momento posterior a la finalización del proceso.
 
 ![img.png](img.png)
+
 Recuerda: ni el programador ni el usuario tienen control sobre los estados de un proceso, ya que su ciclo de vida es responsabilidad exclusiva del planificador de procesos del sistema operativo.
