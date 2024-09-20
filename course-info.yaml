@@ -1,0 +1,7 @@
+type: marketplace
+title: 01 Programación multiproceso
+language: English
+programming_language: Java
+content:
+  - 1. Introducción a los sistemas multitarea
+  - 2. Procesos. Conceptos teóricos
