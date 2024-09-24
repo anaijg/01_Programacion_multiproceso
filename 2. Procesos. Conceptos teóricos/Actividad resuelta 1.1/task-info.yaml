@@ -1,6 +1,6 @@
 type: output
 files:
-  - name: src/App.java
+  - name: src/javajava/App.java
     visible: true
   - name: test/output.txt
     visible: false
@@ -8,5 +8,9 @@ files:
   - name: test/input.txt
     visible: false
     propagatable: false
-  - name: src/proceso_python.py
+  - name: src/javapython/proceso_python.py
+    visible: true
+  - name: src/javajava/Prueba.java
+    visible: true
+  - name: src/javapython/AppPy.java
     visible: true

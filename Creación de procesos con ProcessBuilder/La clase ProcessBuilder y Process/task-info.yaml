@@ -1,0 +1,14 @@
+type: theory
+files:
+  - name: src/Notepad.java
+    visible: true
+  - name: src/EscribirFichero.java
+    visible: true
+  - name: src/CMD.java
+    visible: true
+  - name: 2.2 Gestión de procesos en Java - ProcessBuilder y Process.pdf
+    visible: true
+  - name: src/Shutdown.java
+    visible: true
+  - name: src/Bash.java
+    visible: true
