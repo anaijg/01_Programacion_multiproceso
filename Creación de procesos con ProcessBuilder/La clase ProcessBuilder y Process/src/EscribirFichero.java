@@ -12,7 +12,7 @@ public class EscribirFichero {
         {
             FileWriter fileWriter = null;
             try {
-                fileWriter = new FileWriter(fichero);
+                fileWriter = new FileWriter(fichero, true);
                 for (int i = 0; i < 5; i++) {
                     fileWriter.append("currupipi\n");
                 }

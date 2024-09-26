@@ -8,7 +8,7 @@ public class Notepad {
 
 
       try {
-         // Creamos dos objetos que, cuando sean lanzados con start(), abrirán el bloc de notas
+         // Creamos un objeto que, cuando sean lanzado con start(), abrirá el bloc de notas
 
          pb1 = new ProcessBuilder("notepad.exe", "datos.txt");
 
@@ -20,7 +20,7 @@ public class Notepad {
          // tiene que ser antes de lanzar el proceso con start()
          Map<String, String> contexto = pb1.environment();
          for (Map.Entry<String, String> entradaDelMapa: contexto.entrySet()) {
-           // System.out.println(entradaDelMapa.getKey() + "/t" + entradaDelMapa.getValue());
+            System.out.println(entradaDelMapa.getKey() + "/t" + entradaDelMapa.getValue());
          }
 
          // al lanzar el objeto processbuilder con el método start() es cuando se crea el proceso
