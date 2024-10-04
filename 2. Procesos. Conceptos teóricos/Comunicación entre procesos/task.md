@@ -9,3 +9,5 @@ La comunicación entre procesos se denomina **IPC** (Inter-Process Communication
 - Mediante **RPC (Remote Process Call):** llamada a procedimiento remoto. Consiste en realizar llamadas a métodos de otros procesos que pueden estar en otras máquinas. En Java se realiza mediante la metodología llamada **RMI** (Remote Method Invocation), equivalente a RPC pero orientado a objetos.
 - Mediante **persistencia**: es decir, los procesos realizan operaciones de lectura y escritura en ficheros o bases de datos.
 - Mediante **servicios a través de Internet**: a través de FTP (servicio de transferencia de ficheros), servicios web, tecnología cloud, etc.Aunque los procesos son elementos independientes, deben poder comunicarse entre sí
+
+![img.png](img.png)
