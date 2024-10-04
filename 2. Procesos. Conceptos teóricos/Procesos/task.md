@@ -1,7 +1,7 @@
 Recuerda: un proceso es un programa en ejecución.
 
 **Cada proceso está compuesto por**
-
+![img_1.png](img_1.png)
 - **Instrucciones que se van a ejecutar**: Son el conjunto de operaciones o tareas que el programa debe realizar, contenidas en el código ejecutable. Estas instrucciones son cargadas en memoria cuando el proceso comienza su ejecución.
 - **Estado del propio proceso**: Se refiere a la fase en la que se encuentra el proceso durante su ciclo de vida (nuevo, listo para ejecución, en ejecución, bloqueado o finalizado).
 - **Estado de la ejecución**: Incluye los valores de los registros de la CPU (como el contador de programa o el puntero de pila), que almacenan el contexto de la ejecución en un momento dado. Esto permite que, si un proceso se interrumpe, pueda continuar desde donde fue pausado.
