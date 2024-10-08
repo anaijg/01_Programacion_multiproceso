@@ -33,7 +33,7 @@ public class ProcessExample {
             String linea = stdInput.readLine();  
            
             while ((linea) != null) {  
-                System.out.println(s);
+                System.out.println(linea);
                 linea = stdInput.readLine();
             }
 
@@ -41,7 +41,7 @@ public class ProcessExample {
             System.out.println("\nErrores (si los hay): ");
             linea = stdError.readLine();
             while (linea != null) {  
-                System.out.println(s);
+                System.out.println(linea);
                 linea = stdInput.readLine();
             }
 
