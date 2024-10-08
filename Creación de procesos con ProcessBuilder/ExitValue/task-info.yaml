@@ -5,3 +5,5 @@ files:
   - name: test/Tests.java
     visible: false
     propagatable: false
+  - name: src/ExitValue.java
+    visible: true
